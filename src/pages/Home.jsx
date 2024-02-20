@@ -24,6 +24,14 @@ const Home = () => {
 
                 </div>
             </div>
+            <div className="flex p-32 pt-64 bg-white bg-opacity-90">
+                <div className="bg-white w-full pt-48 pb-32 px-32 rounded-xl shadow-xl shadow-[#0004] relative flex justify-center">
+                    <div className="absolute -top-24 w-48 h-48 rounded-full flex justify-center items-center bg-white shadow-xl">
+
+                    </div>
+                </div>
+            </div>
+            <div className="flex bg-white"></div>
         </>
     );
 }
