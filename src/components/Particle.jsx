@@ -10,7 +10,7 @@ const Particle = () => {
     };
     
     return (
-        <div className="h-screen w-full bg-gradient-to-br from-[#6944ff] to-[#ff2846]">
+        <div className="fixed h-screen w-full bg-gradient-to-br from-[#6944ff] to-[#ff2846]">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
