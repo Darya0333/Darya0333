@@ -1,91 +1,31 @@
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import ReactTypingEffect from "react-typing-effect";
 
 const Home = () => {
-    const particlesInit = async (main) => {
-        await loadFull(main);
-    };
-
-    const particlesLoaded = () => {
-
-    }
-
     return (
         <>
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                    fpsLimit: 120,
-                    interactivity: {
-                        events: {
-                            onClick: {
-                                enable: true,
-                                mode: "push"
-                            },
-                            onHover: {
-                                enable: true,
-                                mode: "repulse"
-                            },
-                            resize: true
-                        },
-                        modes: {
-                            push: {
-                                quantity: 4
-                            },
-                            repulse: {
-                                distance: 120,
-                                duration: 0.4
-                            }
-                        }
-                    },
-                    particles: {
-                        color: {
-                            value: "#ffffff"
-                        },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 1
-                        },
-                        collisions: {
-                            enable: true
-                        },
-                        move: {
-                            direction: "none",
-                            enable: true,
-                            outModes: {
-                                default: "bounce"
-                            },
-                            random: false,
-                            speed: 1,
-                            straight: false
-                        },
-                        number: {
-                            density: {
-                                enable: true,
-                                area: 800
-                            },
-                            value: 80
-                        },
-                        opacity: {
-                            value: 0.5
-                        },
-                        shape: {
-                            type: "circle"
-                        },
-                        size: {
-                            value: { min: 1, max: 5 }
-                        }
-                    },
-                    detectRetina: true
-                }}
-            />
+            <div className="flex h-screen">
+                <div className="w-1/2 text-center flex items-center justify-center">
+                    <div>
+                        <h1 className="text-6xl text-white">Kyosuke Yamada</h1>
+                        <ReactTypingEffect
+                            className="text-2xl text-white"
+                            text={['Software engineer', 'Backend developer']}
+                            speed={50}
+                            eraseDelay={1000}
+                        />
+                        <div className="mt-16 flex justify-center">
+                            <button className="shadow px-16 py-3 rounded-full text-white bg-gradient-to-b from-[#0000] to-[#0001] border-t border-t-[#FFF2] border-b border-b-[#0002]">
+                                RESUME
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-1/2">
+
+                </div>
+            </div>
         </>
-    )
+    );
 }
 
 export default Home;
