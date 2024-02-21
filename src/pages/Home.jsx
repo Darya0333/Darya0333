@@ -14,7 +14,7 @@ const Home = () => {
                             eraseDelay={1000}
                         />
                         <div className="mt-16 flex justify-center">
-                            <button className="shadow px-16 py-3 rounded-full text-white bg-gradient-to-b from-[#0000] to-[#0001] border-t border-t-[#FFF2] border-b border-b-[#0002]">
+                            <button className="shadow px-16 py-3 rounded-full text-white bg-gradient-to-b from-[#0000] to-[#0001] border-t border-t-[#FFF2] border-b border-b-[#0002] backdrop-blur">
                                 RESUME
                             </button>
                         </div>
