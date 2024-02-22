@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Particle from "./components/Particle";
+import Contact from "./components/Contact";
 
 import './App.css';
 
@@ -189,7 +189,7 @@ function App() {
             }
           </div>
         </div>
-        <div id="projects" className="flex flex-wrap p-8 lg:p-32 justify-between">
+        <div id="projects" className="flex flex-wrap p-8 md:p-16 lg:p-32 justify-between">
           {
             projects.map((project, index) => (
               <a key={index} href={project.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
@@ -203,6 +203,7 @@ function App() {
         <div id="certifications" className="flex">
         </div>
         <div id="contact" className="flex">
+          <Contact className="w-1/2 p-8 lg:p-16 xl:p-32 text-center" />
         </div>
       </div>
     </div >
