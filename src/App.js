@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Particle from "./components/Particle";
+import Contact from "./components/Contact";
 
 import './App.css';
 
@@ -92,6 +92,13 @@ function App() {
     { name: "Drug concentration simulation", link: "https://anesup.com", image: "/projects/anesup.png", content: "" }
   ];
 
+  const certifications = [
+    { name: "Responsive Web Design", link: "https://www.freecodecamp.org/certification/ar02220604/responsive-web-design", image: "/certifications/1.png" },
+    { name: "Javascript Algorithms and Data Structures (Beta)", link: "https://www.freecodecamp.org/certification/ar02220604/javascript-algorithms-and-data-structures-v8", image: "/certifications/2.png" },
+    { name: "Javascript Algorithms and Data Structures", link: "https://www.freecodecamp.org/certification/ar02220604/javascript-algorithms-and-data-structures", image: "/certifications/3.png" },
+    { name: "Front End Development Libraries", link: "https://www.freecodecamp.org/certification/ar02220604/front-end-development-libraries", image: "/certifications/4.png" },
+  ];
+
   const [open, setOpen] = useState(false);
   const handleResize = () => setOpen(false);
 
@@ -153,7 +160,7 @@ function App() {
           </div>
         </div>
         <div id="aboutme" className="flex flex-wrap p-8 lg:p-16 xl:p-32 items-start">
-          <div className="w-full lg:w-1/2 lg:pr-4">
+          <div className="w-full lg:w-1/2 lg:pr-8">
             {
               skills.map((skill, i) => (
                 <div key={i}>
@@ -171,7 +178,7 @@ function App() {
               ))
             }
           </div>
-          <div className="w-full lg:w-1/2 lg:pl-4 relative flex flex-wrap justify-center">
+          <div className="w-full lg:w-1/2 lg:pl-8 relative flex flex-wrap justify-center">
             <div className="absolute w-2 h-full rounded-full bg-gradient-to-r from-[#FFF4] to-[#FFF6] backdrop-blur shadow" />
             {
               careers.map((career, index) => (
@@ -189,20 +196,35 @@ function App() {
             }
           </div>
         </div>
-        <div id="projects" className="flex flex-wrap p-8 lg:p-32 justify-between">
-          {
-            projects.map((project, index) => (
-              <a key={index} href={project.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
-                <img src={project.image} className="rounded border-2 border-[#FFF4]" />
-                <h2 className="text-xl mt-4">{project.name}</h2>
-                <p>{project.content}</p>
-              </a>
-            ))
-          }
+        <div id="projects" className="px-8 md:px-16 lg:px-32 py-8">
+          <h1 className="text-xl">Projects</h1>
+          <div className="flex flex-wrap mt-4 overflow-x-scroll gap-4">
+            {
+              projects.map((project, index) => (
+                <a key={index} href={project.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
+                  <img src={project.image} className="rounded border-2 border-[#FFF4]" />
+                  <h2 className="text-xl mt-4">{project.name}</h2>
+                  <p>{project.content}</p>
+                </a>
+              ))
+            }
+          </div>
         </div>
-        <div id="certifications" className="flex">
+        <div id="certifications" className="px-8 md:px-16 lg:px-32 py-8">
+          <h1 className="text-xl">Certifications</h1>
+          <div className="flex flex-wrap mt-4 overflow-x-scroll gap-4">
+            {
+              certifications.map((certification, index) => (
+                <a key={index} href={certification.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
+                  <img src={certification.image} className="rounded border-2 border-[#FFF4]" />
+                  <h2 className="text-xl mt-4">{certification.name}</h2>
+                </a>
+              ))
+            }
+          </div>
         </div>
         <div id="contact" className="flex">
+          <Contact className="w-1/2 p-8 lg:p-16 xl:p-32 text-center" />
         </div>
       </div>
     </div >
