@@ -1,17 +1,16 @@
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import { loadSlim } from "tsparticles-slim";
 
-const Home = () => {
-    const particlesInit = async (main) => {
-        await loadFull(main);
+const Particle = () => {
+    const particlesInit = async engine => {
+        await loadSlim(engine);
     };
 
-    const particlesLoaded = () => {
-
-    }
-
+    const particlesLoaded = async container => {
+    };
+    
     return (
-        <>
+        <div className="fixed h-screen w-full bg-gradient-to-br from-[#6944ff] to-[#ff2846]">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -84,8 +83,8 @@ const Home = () => {
                     detectRetina: true
                 }}
             />
-        </>
+        </div>
     )
 }
 
-export default Home;
+export default Particle;
