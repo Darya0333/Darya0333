@@ -11,31 +11,31 @@
 <h3 align="center"><img src="https://github.com/naruhitokaide/naruhitokaide/blob/main/code.gif" height="20" /> Languages & Platforms</h3>
 <div align="center">
   <div class="icons1">
-    <img src="./images/icons/mysql.png" style="width: 48px">
-    <img src="./images/icons/mongodb.png" style="width: 48px">
-    <img src="./images/icons/c++.png" style="width: 48px">
-    <img src="./images/icons/csharp.png" style="width: 48px">
-    <img src="./images/icons/html.png" style="width: 48px">
-    <img src="./images/icons/css.png" style="width: 48px">
-    <img src="./images/icons/php.png" style="width: 48px">
-    <img src="./images/icons/nodejs.png" style="width: 48px">
-    <img src="./images/icons/python.png" style="width: 48px">
-    <img src="./images/icons/blockchain.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/mysql.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/mongodb.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/c++.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/csharp.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/html.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/css.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/php.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/nodejs.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/python.png" style="width: 48px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/blockchain.png" style="width: 48px">
   </div>
   <div class="icons2">
-    <img src="./images/icons/bootstrap.png" style="width: 32px">
-    <img src="./images/icons/sass.png" style="width: 32px">
-    <img src="./images/icons/tailwindcss.png" style="width: 32px">
-    <img src="./images/icons/laravel.png" style="width: 32px">
-    <img src="./images/icons/wordpress.png" style="width: 32px">
-    <img src="./images/icons/angularjs.png" style="width: 32px">
-    <img src="./images/icons/reactjs.png" style="width: 32px">
-    <img src="./images/icons/vuejs.png" style="width: 32px">
-    <img src="./images/icons/django.png" style="width: 32px">
-    <img src="./images/icons/bitcoin.png" style="width: 32px">
-    <img src="./images/icons/rust.png" style="width: 32px">
-    <img src="./images/icons/solidity.png" style="width: 32px">
-    <img src="./images/icons/solana.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/bootstrap.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/sass.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/tailwindcss.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/laravel.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/wordpress.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/angularjs.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/reactjs.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/vuejs.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/django.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/bitcoin.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/rust.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/solidity.png" style="width: 32px">
+    <img src="https://github.com/ForYou0065/ForYou0065/blob/main/public/icons/solana.png" style="width: 32px">
   </div>
 </div>
 <h3 align="center"><img src="https://github.com/naruhitokaide/naruhitokaide/blob/main/code.gif" height="20" /> Skills</h3>
@@ -128,6 +128,5 @@
 </p>
 
 <h2 align="center"> Thanks for visiting my profile. </h2>
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" />
 </p>
