@@ -34,7 +34,7 @@ function App() {
         { src: "/icons/php.png" },
         { src: "/icons/nodejs.png" },
         { src: "/icons/python.png" },
-        { src: "/icons/blockchain.png" },
+        // { src: "/icons/blockchain.png" },
       ]
     },
     {
@@ -48,10 +48,10 @@ function App() {
         { src: "/icons/reactjs.png" },
         { src: "/icons/vuejs.png" },
         { src: "/icons/django.png" },
-        { src: "/icons/bitcoin.png" },
-        { src: "/icons/rust.png" },
-        { src: "/icons/solidity.png" },
-        { src: "/icons/solana.png" },
+        // { src: "/icons/bitcoin.png" },
+        // { src: "/icons/rust.png" },
+        // { src: "/icons/solidity.png" },
+        // { src: "/icons/solana.png" },
         { src: "/icons/aws.png" },
         { src: "/icons/google-cloud.png" },
       ]
