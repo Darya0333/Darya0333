@@ -1,6 +1,7 @@
 <h1 align="center">
   Welcome to my GitHub.
 </h1>
+
 <h3 align="center">
   I am a Full Stack & Blockchain Developer.
 </h3>
@@ -104,12 +105,7 @@
   <img src="https://github.com/naruhitokaide/naruhitokaide/blob/main/divider1.png" alt="divider" />
 </div> -->
 
-<p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=naruhitokaide&theme=tokyonight&hide_border=true&include_all_commits=true&line_height=27">
-</p>
-
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.linkedin.com/in/naruhitokaide" target="_blank" rel="noopener noreferrer"><img
       src="https://img.icons8.com/fluency/2x/linkedin.png" width="50" /></a>
   &nbsp;&nbsp;
@@ -124,9 +120,6 @@
   &nbsp;&nbsp;
   <a href="https://naruhito-kaide.netlify.app" target="_blank" rel="noopener noreferrer"><img
       src="https://img.icons8.com/nolan/2x/link.png" width="50" /></a>
-
-</p>
-
-<h2 align="center"> Thanks for visiting my profile. </h2>
+</p> -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" />
 </p>
