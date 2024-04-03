@@ -43,18 +43,18 @@
 ## Github Profile
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=foryou929&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=foryou929&border_color=888" />
 </a><a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=foryou929&layout=compact&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=foryou929&layout=compact&border_color=888" />
 </a>
 
 ## Top Repositories
 
 <a href="https://github.com/foryou929/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-frontend&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-frontend&border_color=888" />
 </a>
 <a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-backend&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-backend&border_color=888" />
 </a>
 
 <h3 align="center"><img src="https://github.com/naruhitokaide/naruhitokaide/blob/main/code.gif" height="20" /> Skills</h3>
