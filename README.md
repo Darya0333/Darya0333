@@ -1,10 +1,6 @@
-<h1 align="center" style="border: none; margin-bottom: 0;">
+<h1 align="center">
   Welcome to my GitHub
 </h1>
-
-<div align="center">
-  <img src="https://github.com/foryou929/foryou929/blob/main/public/img/divider.png" alt="divider" />
-</div>
 
 <h3 align="center"><img src="https://github.com/foryou929/foryou929/blob/main/public/img/code.gif" height="20" /> Languages & Platforms</h3>
 <div align="center">
