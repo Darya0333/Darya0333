@@ -35,17 +35,18 @@
 
 ## Github Profile
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/foryou929">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=foryou929&border_color=d0d7de" />
-</a><a href="https://github.com/anuraghazra/github-readme-stats">
+</a>
+<a href="https://github.com/foryou929">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=foryou929&layout=compact&border_color=d0d7de" />
 </a>
 
 ## Top Repositories
 
-<a href="https://github.com/foryou929/github-readme-stats">
+<a href="https://github.com/foryou929/drugsimulation-frontend">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-frontend&border_color=d0d7de" />
 </a>
-<a href="https://github.com/anuraghazra/anuraghazra.github.io">
+<a href="https://github.com/foryou929/drugsimulation-backend">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=foryou929&repo=drugsimulation-backend&border_color=d0d7de" />
 </a>
