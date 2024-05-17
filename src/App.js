@@ -95,6 +95,7 @@ function App() {
     { name: "UDATA株式会社", link: "https://udata.co.jp/", image: "/projects/Screenshot_4.png", content: "" },
     { name: "JILL STUART Beauty 公式サイト", link: "https://www.jillstuart-beauty.com/ja-jp/", image: "/projects/Screenshot_5.png", content: "" },
     { name: "Drug concentration simulation", link: "https://anesup.com", image: "/projects/Screenshot_6.png", content: "" },
+    { name: "Plant vs Zombies", link: "", image: "/projects/Screenshot_7.png", content: "" },
   ];
 
   const certifications = [
