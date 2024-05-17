@@ -89,7 +89,12 @@ function App() {
   ];
 
   const projects = [
-    { name: "Drug concentration simulation", link: "https://anesup.com", image: "/projects/anesup.png", content: "" }
+    { name: "var株式会社", link: "https://next-var-co-ltd-lp.vercel.app/", image: "/projects/Screenshot_1.png", content: "" },
+    { name: "セブンビューティー(旧7エステ)【公式】 | 国内最大級の総合美容メーカー", link: "https://7beauty.jp/", image: "/projects/Screenshot_2.png", content: "" },
+    { name: "【美容通販サイト】BEAUTY PARK ビューティーパーク", link: "https://www.forcise.jp/", image: "/projects/Screenshot_3.png", content: "" },
+    { name: "UDATA株式会社", link: "https://udata.co.jp/", image: "/projects/Screenshot_4.png", content: "" },
+    { name: "JILL STUART Beauty 公式サイト", link: "https://www.jillstuart-beauty.com/ja-jp/", image: "/projects/Screenshot_5.png", content: "" },
+    { name: "Drug concentration simulation", link: "https://anesup.com", image: "/projects/Screenshot_6.png", content: "" },
   ];
 
   const certifications = [
@@ -139,7 +144,7 @@ function App() {
         <div id="home" className="flex flex-wrap mt-32">
           <div className="w-full lg:w-1/2 text-center flex justify-center pt-48">
             <div>
-              <h1 className="text-6xl">Kyosuke Yamada</h1>
+              <h1 className="text-6xl">Murano Akihiro</h1>
               <ReactTypingEffect
                 className="text-2xl"
                 text={['Software engineer', 'Backend developer']}
@@ -201,7 +206,7 @@ function App() {
           <div className="flex flex-wrap mt-4 overflow-x-scroll gap-4">
             {
               projects.map((project, index) => (
-                <a key={index} href={project.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
+                <a key={index} href={project.link} className="w-full lg:w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
                   <img src={project.image} className="rounded border-2 border-[#FFF4]" />
                   <h2 className="text-xl mt-4">{project.name}</h2>
                   <p>{project.content}</p>
@@ -215,7 +220,7 @@ function App() {
           <div className="flex flex-wrap mt-4 overflow-x-scroll gap-4">
             {
               certifications.map((certification, index) => (
-                <a key={index} href={certification.link} className="w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
+                <a key={index} href={certification.link} className="w-full lg:w-64 border-2 border-[#FFF2] bg-[#FFF1] rounded-xl p-4 backdrop-blur">
                   <img src={certification.image} className="rounded border-2 border-[#FFF4]" />
                   <h2 className="text-xl mt-4">{certification.name}</h2>
                 </a>
@@ -224,7 +229,7 @@ function App() {
           </div>
         </div>
         <div id="contact" className="flex">
-          <Contact className="w-1/2 p-8 lg:p-16 xl:p-32 text-center" />
+          <Contact className="w-full lg:w-1/2 p-8 lg:p-16 xl:p-32 text-center" />
         </div>
       </div>
     </div >
