@@ -86,6 +86,7 @@ function App() {
 
   const careers = [
     { title: "Chiba Institute of Technology", content: "I graduated from the Department of Computer Science at the Faculty of Information and Computer Science in September 2022." },
+    { title: "千葉工業大学", content: "2022年9月に情報科学部コンピュータサイエンス学科を卒業しました。" },
   ];
 
   const projects = [
@@ -147,6 +148,7 @@ function App() {
           <div className="w-full lg:w-1/2 text-center flex justify-center pt-48">
             <div>
               <h1 className="text-6xl">Murano Akihiro</h1>
+              <h1 className="text-6xl">村野 明広</h1>
               <ReactTypingEffect
                 className="text-2xl"
                 text={['Software engineer', 'Backend developer']}
@@ -160,9 +162,12 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 flex px-8 lg:px-16 xl:px-32 mt-32">
+          <div className="w-full lg:w-1/2 flex flex-col gap-[8px] px-8 lg:px-16 xl:px-32 mt-32">
             <div className="w-full p-8 lg:p-16 rounded-xl shadow shadow-[#0004] relative flex justify-center backdrop-blur text-xl">
               I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+            </div>
+            <div className="w-full p-8 lg:p-16 rounded-xl shadow shadow-[#0004] relative flex justify-center backdrop-blur text-xl">
+              私は、TypeScript と JavaScript の経験があり、React、Node.js、Three.js などのフレームワークの専門知識を持つ、熟練したソフトウェア開発者です。 私は物覚えが早く、クライアントと緊密に協力して、現実世界の問題を解決する効率的でスケーラブルで使いやすいソリューションを作成します。 あなたのアイデアを実現するために一緒に働きましょう！
             </div>
           </div>
         </div>
