@@ -85,8 +85,8 @@ function App() {
   ];
 
   const careers = [
-    { title: "Chiba Institute of Technology", content: "I graduated from the Department of Computer Science at the Faculty of Information and Computer Science in September 2022." },
-    { title: "千葉工業大学", content: "2022年9月に情報科学部コンピュータサイエンス学科を卒業しました。" },
+    { title: "Chiba Institute of Technology", content: "I graduated from the Department of Computer Science at the Faculty of Information and Computer Science in September 2020." },
+    { title: "千葉工業大学", content: "2020年9月に情報科学部コンピュータサイエンス学科を卒業しました。" },
   ];
 
   const projects = [
