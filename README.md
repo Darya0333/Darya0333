@@ -33,11 +33,11 @@
   </div>
 </div>
 
-<h3 align="center"><img src="https://github.com/foryou929/foryou929/blob/main/public/img/code.gif" height="20" /> Github Profile</h3>
+<h3 align="center"><img src="https://github.com/raya0106/raya0106/blob/main/public/img/code.gif" height="20" /> Github Profile</h3>
 
-<a href="https://github.com/foryou929">
+<a href="https://github.com/raya0106">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=foryou929&border_color=d0d7de" />
 </a>
-<a href="https://github.com/foryou929">
+<a href="https://github.com/raya0106">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=foryou929&layout=compact&border_color=d0d7de" />
 </a>
