@@ -1,7 +1,9 @@
 <h1 align="center">
   Welcome to my GitHub
 </h1>
-
+<b>Name:</b> Darya Ivanovna Nagnoyenko</br>
+<b>Email:</b> daryanagnoyenko1998@outlook.com</br>
+<b>Phone:</b> +7 7752640271</br>
 <h3 align="center"><img src="https://github.com/raya0106/raya0106/blob/main/public/img/code.gif" height="20" /> Languages & Platforms</h3>
 <div align="center">
   <div class="icons1">
