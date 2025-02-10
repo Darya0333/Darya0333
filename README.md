@@ -2,7 +2,6 @@
   Welcome to my GitHub
 </h1>
 <!-- <b>Name:</b> Kawamoto Makoto </br> -->
-<b>Discord:</b> royalman123 </br>
 <!-- <b>Email:</b> gdev48147@gmail.com </br>
 <b>Phone:</b> +81 08038429644 </br> -->
 <h3 align="center"><img src="https://github.com/raya0106/raya0106/blob/main/public/img/code.gif" height="20" /> Languages & Platforms</h3>
